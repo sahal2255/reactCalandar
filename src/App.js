@@ -1,25 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
-
+// import One from './components/One'
+// import FOne from './components/functinalcmp';
+// import ItemList from './components/itemList';
+// import Greeting from './components/propone';
+// import ClassOne from './components/funone'
+// import Event from'./components/dateselector';
+import EventDate from './components/event';
 function App() {
+  // const such= 'React is the JS library '
+  // const name='sahal'
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <One /> */}
+      {/* <FOne name="James" heroName='Bond'/> */}
+      {/* <ItemList /> */}
+      {/* <Greeting /> */}
+      {/* <Welcome text={such} name={name}/> */}
+      {/* <ClassOne /> */}
+      {/* <Event /> */}
+      <EventDate />
     </div>
   );
-}
+} 
+// const Welcome=(props)=>{
+//   const gre='Learn React'
+//   return <h1>{gre} {props.name}</h1>
+// }
 
 export default App;
